@@ -94,3 +94,22 @@ nav a:hover {
         background-color: white;
     }
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: black;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .item {
+        background-color: rgb(255, 235, 205);
+    }
+
+    h2 {
+        font-family: 'Shadows Into Light Two', cursive;}
+}
